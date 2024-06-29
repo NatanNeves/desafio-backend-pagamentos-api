@@ -1,4 +1,4 @@
-package com.picpay.pagamentos.domain;
+package com.picpay.pagamentos.domain.user;
 
 import com.picpay.pagamentos.domain.enums.UserType;
 import jakarta.persistence.*;

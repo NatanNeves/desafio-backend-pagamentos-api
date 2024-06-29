@@ -1,5 +1,6 @@
-package com.picpay.pagamentos.domain;
+package com.picpay.pagamentos.domain.transaction;
 
+import com.picpay.pagamentos.domain.user.User;
 import jakarta.persistence.*;
 import lombok.*;
 

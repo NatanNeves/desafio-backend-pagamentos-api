@@ -1,4 +1,4 @@
-package com.picpay.pagamentos.dto;
+package com.picpay.pagamentos.dtos;
 
 import com.picpay.pagamentos.domain.enums.UserType;
 
