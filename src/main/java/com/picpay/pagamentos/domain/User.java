@@ -4,6 +4,8 @@ import com.picpay.pagamentos.domain.enums.UserType;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.math.BigDecimal;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -26,4 +28,5 @@ public class User {
     private String password;
     @Enumerated(EnumType.STRING)
     private UserType type;
+    private BigDecimal amount;
 }
